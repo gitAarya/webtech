@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        button[type="submit"] {
+            background-color: #93DA97;
+            border: none;
+            font-size: 25px;
+            border-radius: 9px;
+            padding: 5px 15px;
+            transition: background-color 0.3s; 
+        }
+        button[type="submit"]:hover {
+            background-color: #c9e9ce; 
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body style="font-family: monospace;">
+   <div style="display: flex; align-items: center; justify-content: center; height: 100vh; ">
+    <form action="#" style="background-color: #5E936C; padding: 25px; border-radius: 18px;">
+     <h3 >Login</h1>
+    <div style="margin:5px; display: flex; flex-direction: column; width: fit-content;">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" name="password" required>
+
+    </div>
+    <div style="display: flex; align-items: center; justify-content: center;">
+        <button type="submit" style="border: none;  font-size: 25px; border-radius: 9px; " >Login</button>
+    </div>
+   </form>
+   </div>
+</body>
+</html>
